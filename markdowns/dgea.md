@@ -1,0 +1,11 @@
+# Introduction
+
+This section covers differential gene expression analysis. Our primary goal in this part was to compare individual treatments to appropriate control samples (at the same time point if possible) in order to better understand how the treatments affected gene expression patterns.
+
+# Methodology
+
+To begin our differential gene expression analysis, we used pre-processed count data (normalized with `qsmooth`) transformed with the `voom` function from the `limma` package. Our analytical technique starts with the formulation of a contrast matrix. When we compared the treatment group to a properly selected control sample, we estimated the fold change and adjusted p-value values using gene expression shifts. Our research was supported by a number of essential functions from the `limma` package, such as `lmFit`, `contrast.fit`, `eBayes`, and `decideTests`. These methods helped us discover genes with differential expression (DEGs). We next visualized the dynamic gene expression profiles using `ggplot2` and a hierarchical clustering technique. For each comparison, genes were divided into two unique groups: "up-regulated" and "down-regulated" using the `cutree` algorithm. For the majority of our experimental samples, only one treatment and control sample combination was available. However, in cases where this matching was impossible due to experimental restrictions, we used a cautious approach. We used the nearest accessible time point as a surrogate reference for comparison. After that, we looked at over-representation analysis, which is a critical step in understanding the functional implications of DEGs. Using the `clusterProfiler` package, we attempted to identify Gene Ontology (GO) concepts that were strongly enriched inside each genetic cluster. Our background set included all expressed genes in our samples.
+
+# Parameter selection
+
+The default values are suitable, but you can adjust them. Please be patient while a new plot or table is loading. It takes time to do the calculation. If there are no enhanced terms, you will see an empty plot/table. Then perhaps you might choose a different set of parameters or a different comparison.

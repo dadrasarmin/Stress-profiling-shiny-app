@@ -1,0 +1,7 @@
+# Visualization of a single gene expression profile
+
+Here, we provide the chance to see how particular genes are expressed. We think it's critical to analyze gene expression using a variety of visualization techniques, such as the boxplot, dot plot, and heatmap. By providing a distinct viewpoint, each approach makes it possible to decipher the intricate workings of gene regulation. Because of its simplicity, the boxplot shows central tendencies and outliers in a clear description of the distribution of gene expression. Conversely, the dot plot provides a finer perspective by displaying individual data points together with their distribution. In the meantime, the heatmap presents gene expression across samples in a clear and understandable way, painting a complete picture. In addition, we applied the Z-score transformation, a statistical method that normalizes gene expression levels to facilitate comparisons between various genes and datasets.
+
+# A note on abbreviations
+
+Each treatment has a name composed of two components separated by an underscore. The first portion is the treatment, and the second part is the time (in hours) since the start of the experiment. We had two highlight settings: stress ("s") and recovery ("r").

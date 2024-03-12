@@ -1,0 +1,13 @@
+# Why did we make this website?
+
+We believe that a new perspective and the formulation of questions can provide insights from the same analyses. However, the number of good and appropriate questions is vast, far exceeding what any single scientist can consider. We contend that the unrealized potential of many scientific efforts is concealed under massive piles of supplementary numbers and tables. The processed data we supply is ready for analysis by a diverse group of scientists, each with their own set of intriguing questions. To overcome the considerable technological barriers that frequently obstruct research, we gladly present this user-friendly interface that allows free access to our research.
+
+Please keep in mind that certain sections require the interactive shiny app to compute and re-plot the processed data. This may take a few seconds. Please be patient. We compiled short methodological explanations and parameter specifics for each allocated section. For further reading, please find corresponding paper or website under Method section.
+
+# Project Overview
+
+We cultivated three species, namely _Physcomitrium patens_, _[Mesotaenium endlicherianum SAG12.97](https://sagdb.uni-goettingen.de/detailedList.php?str_number=12.97)_, and _[Zygnema circumcarinatum SAG698-1b](https://sagdb.uni-goettingen.de/detailedList.php?str_number=698-1b)_, each subjected to four distinct environmental conditions: control, cold, heat, and high light (+recovery). We generated RNA-Seq data and executed metabolite investigation at several time points after the experiment started. Subsequently, we used a variety of computational methods to uncover the underlying stress response mechanisms. To have a thorough understanding of our findings, please read our manuscript: `Rieseberg, Tim Philip, et al. "Time-resolved oxidative signal convergence across the algae–embryophyte divide" bioRxiv (2024).`
+
+# Credits
+
+Armin Dadras created this website based on the experiment design conducted by the [de Vries group](https://www.uni-goettingen.de/de/613776.html). The study's key findings have been extensively recorded and published in Rieseberg et al. (2024). The design and maintenance of this website was made possible by the support offered by [GWDG](https://gwdg.de/). The project was funded by DFG grants SPP 2237 (MAdLand - Molecular Adaptation to Land: Plant Evolution to Change), VR 132/4-1 (CarotPhyte: Exploring the evolutionary roots for the biosynthesis of apocarotenoids and their role as signals in plastid-mediated stress response in streptophyte algae), and ERC grant 852725 (ERC-StG TerreStriAL Terrestrialization: Stress Signalling Dynamics in the Algal Progenitors of Land Plants).
